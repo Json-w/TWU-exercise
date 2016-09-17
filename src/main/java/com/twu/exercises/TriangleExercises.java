@@ -9,8 +9,12 @@ public class TriangleExercises {
         int number = scanner.nextInt();
 
         for (int i = 0; i < number; i++) {
-            for (int j = 0; j <= i; j++) {
-                System.out.print("*");
+            for (int j = 0; j < number*2-1; j++) {
+                if(j<=(number+i)-1 && j>=(number-i)-1){
+                    System.out.print("*");
+                }else {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
