@@ -9,7 +9,7 @@ public class TriangleExercises {
         int number = scanner.nextInt();
 
         for (int i = 0; i < number; i++) {
-            System.out.print("*");
+            System.out.println("*");
         }
     }
 }
