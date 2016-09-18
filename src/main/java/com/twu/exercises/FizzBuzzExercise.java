@@ -2,6 +2,10 @@ package com.twu.exercises;
 
 public class FizzBuzzExercise {
     public static void main(String args[]) {
+        FizzBuzz();
+    }
+
+    private static void FizzBuzz() {
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 && i % 15 != 0) {
                 System.out.println("Fizz");
